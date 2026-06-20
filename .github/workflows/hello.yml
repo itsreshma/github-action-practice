@@ -1,0 +1,17 @@
+# workflow name
+name: Hello
+
+# on tells when the workflow should run
+on:
+  workflow_dispatch:
+
+# jobs tells what the workflow should do
+jobs:
+  # first job
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello, everyone!"
+ 
