@@ -1,5 +1,5 @@
 
-#This is PYTHON function 
+# This is PYTHON function 
 def greet(name):
     print(f"Hello, {name}")
 
