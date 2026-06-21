@@ -1,7 +1,6 @@
 
-# This is PYTHON function 
+# This is function
 def greet(name):
     print(f"Hello, {name}")
-
 
 greet("Reshma")
